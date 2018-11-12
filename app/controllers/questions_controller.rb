@@ -6,7 +6,7 @@ class QuestionsController < ApplicationController
   def answer
     ask
     if @question == 'I am going to work'
-      @answer = 'Great'
+      @answer = 'Great!'
     elsif @question.include? '?'
       @answer = "Silly question, get dressed and go to work!"
     else
